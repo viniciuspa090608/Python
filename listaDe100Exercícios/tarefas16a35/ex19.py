@@ -1,0 +1,6 @@
+print("=== Exercício 19: Maior e Menor de Três Números ===")
+a = float(input("Valor 1: "))
+b = float(input("Valor 2: "))
+c = float(input("Valor 3: "))
+print("Maior:", max(a, b, c))
+print("Menor:", min(a, b, c))

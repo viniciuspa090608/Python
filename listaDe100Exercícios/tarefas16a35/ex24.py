@@ -1,0 +1,6 @@
+print("=== Exercício 24: Ano Bissexto ===")
+ano = int(input("Ano: "))
+if (ano % 400 == 0) or (ano % 4 == 0 and ano % 100 != 0):
+    print("Resultado: ANO BISSEXTO")
+else:
+    print("Resultado: NÃO BISSEXTO")
